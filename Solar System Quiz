@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar System Quiz</title>
+</head>
+<style>
+    h1 {
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        text-decoration: underline;
+        text-align: center;
+        text-shadow:  2px 2px #00fff7;
+        font-size: 45px;
+    }
+    li{
+        font-size: 25px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bolder;
+        font-style: oblique;
+        border-left: 40px solid #ffffff;
+        border-right: 40px solid #ffffff;
+    }
+</style>
+<body>
+    <h1>Solar System and Dwarf Planets Quiz</h1>
+    <form id="quiz">
+        <ol>
+            <li>
+                <label>What is the largest planet in our solar system?</label><br>
+                <input type="radio" name="q1" value="a"> Earth<br>
+                <input type="radio" name="q1" value="b"> Jupiter<br>
+                <input type="radio" name="q1" value="c"> Saturn<br>
+                <input type="radio" name="q1" value="d"> Mars<br>
+            </li>
+            <li>
+                <label>Which planet is known as the Red Planet?</label><br>
+                <input type="radio" name="q2" value="a"> Venus<br>
+                <input type="radio" name="q2" value="b"> Mars<br>
+                <input type="radio" name="q2" value="c"> Mercury<br>
+                <input type="radio" name="q2" value="d"> Jupiter<br>
+            </li>
+            <li>
+                <label>What is the smallest planet in our solar system?</label><br>
+                <input type="radio" name="q3" value="a"> Venus<br>
+                <input type="radio" name="q3" value="b"> Mars<br>
+                <input type="radio" name="q3" value="c"> Mercury<br>
+                <input type="radio" name="q3" value="d"> Pluto<br>
+            </li>
+            <li>
+                <label>Which planet is known for its rings?</label><br>
+                <input type="radio" name="q4" value="a"> Uranus<br>
+                <input type="radio" name="q4" value="b"> Neptune<br>
+                <input type="radio" name="q4" value="c"> Saturn<br>
+                <input type="radio" name="q4" value="d"> Jupiter<br>
+            </li>
+            <li>
+                <label>What is the hottest planet in our solar system?</label><br>
+                <input type="radio" name="q5" value="a"> Mercury<br>
+                <input type="radio" name="q5" value="b"> Venus<br>
+                <input type="radio" name="q5" value="c"> Earth<br>
+                <input type="radio" name="q5" value="d"> Mars<br>
+            </li>
+            <li>
+                <label>Which planet is known as the Earth's twin?</label><br>
+                <input type="radio" name="q6" value="a"> Mars<br>
+                <input type="radio" name="q6" value="b"> Venus<br>
+                <input type="radio" name="q6" value="c"> Mercury<br>
+                <input type="radio" name="q6" value="d"> Neptune<br>
+            </li>
+            <li>
+                <label>Which planet has the most moons?</label><br>
+                <input type="radio" name="q7" value="a"> Saturn<br>
+                <input type="radio" name="q7" value="b"> Jupiter<br>
+                <input type="radio" name="q7" value="c"> Uranus<br>
+                <input type="radio" name="q7" value="d"> Neptune<br>
+            </li>
+            <li>
+                <label>Which planet is closest to the Sun?</label><br>
+                <input type="radio" name="q8" value="a"> Venus<br>
+                <input type="radio" name="q8" value="b"> Earth<br>
+                <input type="radio" name="q8" value="c"> Mercury<br>
+                <input type="radio" name="q8" value="d"> Mars<br>
+            </li>
+            <li>
+                <label>Which planet is known for its Great Red Spot?</label><br>
+                <input type="radio" name="q9" value="a"> Jupiter<br>
+                <input type="radio" name="q9" value="b"> Saturn<br>
+                <input type="radio" name="q9" value="c"> Uranus<br>
+                <input type="radio" name="q9" value="d"> Neptune<br>
+            </li>
+            <li>
+                <label>Which planet is tilted on its side?</label><br>
+                <input type="radio" name="q10" value="a"> Uranus<br>
+                <input type="radio" name="q10" value="b"> Neptune<br>
+                <input type="radio" name="q10" value="c"> Saturn<br>
+                <input type="radio" name="q10" value="d"> Jupiter<br>
+            </li>
+            <li>
+                <label>Which planet is known as the Morning Star?</label><br>
+                <input type="radio" name="q11" value="a"> Venus<br>
+                <input type="radio" name="q11" value="b"> Mars<br>
+                <input type="radio" name="q11" value="c"> Mercury<br>
+                <input type="radio" name="q11" value="d"> Jupiter<br>
+            </li>
+            <li>
+                <label>Which planet has the shortest day?</label><br>
+                <input type="radio" name="q12" value="a"> Earth<br>
+                <input type="radio" name="q12" value="b"> Jupiter<br>
+                <input type="radio" name="q12" value="c"> Saturn<br>
+                <input type="radio" name="q12" value="d"> Mars<br>
+            </li>
+            <li>
+                <label>Which planet has the longest day?</label><br>
+                <input type="radio" name="q13" value="a"> Venus<br>
+                <input type="radio" name="q13" value="b"> Mars<br>
+                <input type="radio" name="q13" value="c"> Mercury<br>
+                <input type="radio" name="q13" value="d"> Jupiter<br>
+            </li>
+            <li>
+                <label>Which planet is known as the Ice Giant?</label><br>
+                <input type="radio" name="q14" value="a"> Uranus<br>
+                <input type="radio" name="q14" value="b"> Neptune<br>
+                <input type="radio" name="q14" value="c"> Saturn<br>
+                <input type="radio" name="q14" value="d"> Jupiter<br>
+            </li>
+            <li>
+                <label>Which planet has a moon named Titan?</label><br>
+                <input type="radio" name="q15" value="a"> Jupiter<br>
+                <input type="radio" name="q15" value="b"> Saturn<br>
+                <input type="radio" name="q15" value="c"> Uranus<br>
+                <input type="radio" name="q15" value="d"> Neptune<br>
+            </li>
+            <li>
+                <label>Which planet has a moon named Ganymede?</label><br>
+                <input type="radio" name="q16" value="a"> Jupiter<br>
+                <input type="radio" name="q16" value="b"> Saturn<br>
+                <input type="radio" name="q16" value="c"> Uranus<br>
+                <input type="radio" name="q16" value="d"> Neptune<br>
+            </li>
+            <li>
+                <label>Which planet has a moon named Triton?</label><br>
+                <input type="radio" name="q17" value="a"> Jupiter<br>
+                <input type="radio" name="q17" value="b"> Saturn<br>
+                <input type="radio" name="q17" value="c"> Uranus<br>
+                <input type="radio" name="q17" value="d"> Neptune<br>
+            </li>
+            <li>
+                <label>Which planet has a moon named Europa?</label><br>
+                <input type="radio" name="q18" value="a"> Jupiter<br>
+                <input type="radio" name="q18" value="b"> Saturn<br>
+                <input type="radio" name="q18" value="c"> Uranus<br>
+                <input type="radio" name="q18" value="d"> Neptune<br>
+            </li>
+            <li>
+                <label>Which planet has a moon named Enceladus?</label><br>
+                <input type="radio" name="q19" value="a"> Jupiter<br>
+                <input type="radio" name="q19" value="b"> Saturn<br>
+                <input type="radio" name="q19" value="c"> Uranus<br>
+                <input type="radio" name="q19" value="d"> Neptune<br>
+            </li>
+            <li>
+                <label>Which planet has a moon named Callisto?</label><br>
+                <input type="radio" name="q20" value="a"> Jupiter<br>
+                <input type="radio" name="q20" value="b"> Saturn<br>
+                <input type="radio" name="q20" value="c"> Uranus<br>
+                <input type="radio" name="q20" value="d"> Neptune<br>
+            </li>
+            <li>
+                <label>Which dwarf planet is located in the asteroid belt?</label><br>
+                <input type="radio" name="q21" value="a"> Pluto<br>
+                <input type="radio" name="q21" value="b"> Eris<br>
+                <input type="radio" name="q21" value="c"> Haumea<br>
+                <input type="radio" name="q21" value="d"> Ceres<br>
+            </li>
+            <li>
+                <label>Which dwarf planet is known for its heart-shaped region?</label><br>
+                <input type="radio" name="q22" value="a"> Pluto<br>
+                <input type="radio" name="q22" value="b"> Eris<br>
+                <input type="radio" name="q22" value="c"> Haumea<br>
+                <input type="radio" name="q22" value="d"> Ceres<br>
+            </li>
+            <li>
+                <label>Which dwarf planet is the most massive?</label><br>
+                <input type="radio" name="q23" value="a"> Pluto<br>
+                <input type="radio" name="q23" value="b"> Eris<br>
+                <input type="radio" name="q23" value="c"> Haumea<br>
+                <input type="radio" name="q23" value="d"> Ceres<br>
+            </li>
+            <li>
+                <label>Which dwarf planet is known for its elongated shape?</label><br>
+                <input type="radio" name="q24" value="a"> Pluto<br>
+                <input type="radio" name="q24" value="b"> Eris<br>
+                <input type="radio" name="q24" value="c"> Haumea<br>
+                <input type="radio" name="q24" value="d"> Ceres<br>
+            </li>
+            <li>
+                <label>Which dwarf planet was discovered first?</label><br>
+                <input type="radio" name="q25" value="a"> Pluto<br>
+                <input type="radio" name="q25" value="b"> Eris<br>
+                <input type="radio" name="q25" value="c"> Haumea<br>
+                <input type="radio" name="q25" value="d"> Ceres<br>
+            </li>
+            <li>
+                <label>Which dwarf planet is located beyond Neptune?</label><br>
+                <input type="radio" name="q26" value="a"> Pluto<br>
+                <input type="radio" name="q26" value="b"> Eris<br>
+                <input type="radio" name="q26" value="c"> Haumea<br>
+                <input type="radio" name="q26" value="d"> Ceres<br>
+            </li>
+            <li>
+                <label>Which dwarf planet has a moon named Dysnomia?</label><br>
+                <input type="radio" name="q27" value="a"> Pluto<br>
+                <input type="radio" name="q27" value="b"> Eris<br>
+                <input type="radio" name="q27" value="c"> Haumea<br>
+                <input type="radio" name="q27" value="d"> Ceres<br>
+            </li>
+            <li>
+                <label>Which dwarf planet has a moon named Charon?</label><br>
+                <input type="radio" name="q28" value="a"> Pluto<br>
+                <input type="radio" name="q28" value="b"> Eris<br>
+                <input type="radio" name="q28" value="c"> Haumea<br>
+                <input type="radio" name="q28" value="d"> Ceres<br>
+            </li>
+            <li>
+                <label>Which dwarf planet has a moon named Hi'iaka?</label><br>
+                <input type="radio" name="q29" value="a"> Pluto<br>
+                <input type="radio" name="q29" value="b"> Eris<br>
+                <input type="radio" name="q29" value="c"> Haumea<br>
+                <input type="radio" name="q29" value="d"> Ceres<br>
+            </li>
+            <li>
+                <label>Which dwarf planet has a moon named Namaka?</label><br>
+                <input type="radio" name="q30" value="a"> Pluto<br>
+                <input type="radio" name="q30" value="b"> Eris<br>
+                <input type="radio" name="q30" value="c"> Haumea<br>
+                <input type="radio" name="q30" value="d"> Ceres<br>
+            </li>
+        </ol>
+        <input type="submit" value="Submit Quiz">
+    </form>
+<script>
+    const quiz = document.getElementById('quiz');
+    quiz.addEventListener('submit', function(event){
+        event.preventDefault();
+        const answers = {
+            q1: 'b',
+            q2: 'b',
+            q3: 'c',
+            q4: 'c',
+            q5: 'b',
+            q6: 'b',
+            q7: 'b',
+            q8: 'c',
+            q9: 'a',
+            q10: 'a',
+            q11: 'a',
+            q12: 'b',
+            q13: 'a',
+            q14: 'b',
+            q15: 'b',
+            q16: 'a',
+            q17: 'd',
+            q18: 'a',
+            q19: 'b',
+            q20: 'a',
+            q21: 'd',
+            q22: 'a',
+            q23: 'b',
+            q24: 'c',
+            q25: 'a',
+            q26: 'b',
+            q27: 'a',
+            q28: 'a',
+            q29: 'c',
+            q30: 'c'
+        };
+        let score = 0;
+        let wrongAnswers = [];
+        for (let i = 1; i <= 30; i++){
+            const radios = document.getElementsByName('q' + i);
+            let answeredCorrectly = false;
+            for (let j = 0; j < radios.length; j++){
+                const radio = radios[j];
+                if (radio.value === answers['q' + i] && radio.checked){
+                    score++;
+                    answeredCorrectly = true;
+                }
+            }
+            if (!answeredCorrectly) {
+                wrongAnswers.push(i);
+            }
+        }
+        alert('You got ' + score + ' out of 30 questions correct!');
+        if (wrongAnswers.length > 0) {
+            alert('You answered the following questions incorrectly: ' + wrongAnswers.join(', '));
+        }
+    });
+    var big = document.getElementsByTagName("input");
+    for (var i = 0; i < big.length; i++) {
+        big[i].style.color = "blue";
+        big[i].style.fontWeight = "900";
+        big[i].style.fontSize = "20px";
+        big[i].style.fontFamily = "Monospace";
+        big[i].style.border = "2px solid black";
+    }
+</script>
+</body>
+</html>
