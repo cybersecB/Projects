@@ -296,6 +296,21 @@
         if (wrongAnswers.length > 0) {
             alert('You answered the following questions incorrectly: ' + wrongAnswers.join(', '));
         }
+        if (wrongAnswers.length === 0) {
+            alert('You answered all questions correctly! ( You are a Solar System Expert! )');
+        }
+        if (score < 15) {
+            alert('You need to study more about the Solar System and Dwarf Planets!');
+        }
+        if (score >= 15 && score < 25) {
+            alert('You have a good knowledge of the Solar System and Dwarf Planets!');
+        }
+        if (score >= 25) {
+            alert('You are a Solar System and Dwarf Planets Genius!');
+        }
+        if (score === 30) {
+            alert('You are a Solar System and Dwarf Planets Master!');
+        }
     });
     var big = document.getElementsByTagName("input");
     for (var i = 0; i < big.length; i++) {
